@@ -1,13 +1,10 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Navbar from 'components/Navbar';
+import Rotas from 'Rotas';
 
-const App = () => {
+function App () {
   return (
-    <>
-     <Navbar />
-     <h1> Hello fluxo</h1>
-    </>
+    <Rotas />
   );
 }
 
