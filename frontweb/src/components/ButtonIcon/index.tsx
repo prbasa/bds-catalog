@@ -1,4 +1,4 @@
-import './styles';
+import './styles.css';
 
 type Props = {
     text: string;
