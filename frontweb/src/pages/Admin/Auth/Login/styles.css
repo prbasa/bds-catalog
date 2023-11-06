@@ -20,7 +20,7 @@
     color: #407bff;
     display: block;
     margin-bottom: 90px;
-    text-align: center;
+    
 
 }
 
@@ -52,14 +52,9 @@
 
 }
 
-.mb-2 {
-    display: flex;
-    text-align: center;
-
-}
-
-.mb-4 {
-    display: flex;
-    text-align: center;
-
+@media (min-width: 576px){
+    .login-card {
+        padding: 50px;
+        
+    }
 }
