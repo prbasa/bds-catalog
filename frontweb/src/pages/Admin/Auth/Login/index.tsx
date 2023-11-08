@@ -4,6 +4,7 @@ import './styles.css';
 import { useForm } from 'react-hook-form';
 import { requestBackendLogin, saveAuthData } from 'util/requests';
 import { useState } from 'react';
+import Logotipo from 'assets/images/AAC.jpg'
 
 type FormData = {
   username: string;
@@ -34,6 +35,7 @@ const Login = () => {
 
   return (
     <div className="base-card login-card">
+      <center><img src={Logotipo} /></center>
       <h1>LOGIN</h1>
       {hasError && (
         <div className="alert alert-danger">Erro ao tentar efetuar o login</div>
